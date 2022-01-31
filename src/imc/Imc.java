@@ -53,6 +53,8 @@ public class Imc {
 		} else if (imc >= 25 && imc < 30) {
 			System.out.println("SOBREPESO");
 			
+		}else if (imc >= 30 && imc < 35) {
+			System.out.println("OBESIDADE GRAU 1");
 		}
 				
 	}
